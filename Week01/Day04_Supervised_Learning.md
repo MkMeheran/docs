@@ -1,0 +1,8 @@
+Hello there,  
+This is perhaps my 4th day of writing practice.Today I want to write about what i learnt. I completed a machine learning method called supervised learning with scikit learn.
+
+In supervised learning, models try to predict outcome according to historical database or older trend of data. It has two branches-classification and regression. Classification gives a prediction about any incident’s probability of happening. Different kinds of models are tested separately to check which model predicts more accurately. Accuracy of models can be determined using many methods. For example, precision, recall , F1 methods are used along with accuracy scores.
+
+Regression, the second type of supervised learning, predicts numerical estimation instead of probability of classifying. For example, predicting the prices of a house, restaurant or residential area by using neighborhood’s housing data, area condition, house size, floor count, accessibility etc data. In regression , there are numerous data which can not be explained numerically. That's why standardization is very important before using this dataset. Sklearn preprocessing library offers a standardscaler transformer that helps to convert numerical data to be processed for machine learning. It also handles train and test data like dot fit method and dot transform method to prevent data leakage.
+
+Data leakage denotes a condition when models somehow get manipulated with test data resulting in an overly optimistic prediction. But in real world dataset which will be tested during production, the model will fail dramatically because it does not have that manipulative data which was exactly injected in model building process from testing data.
